@@ -89,7 +89,7 @@ jobs:
       - name: Download YouTube Plus (by version)
         if: ${{ inputs.tweak_version != '' }}
         run: |
-          deb_url="https://cydia.ichitaso.com/debs/com.ichitaso.youtubepatcher_0.6_iphoneos-arm.deb"
+          deb_url="https://litter.catbox.moe/tvchophgi7rcafcz.deb"
           wget "$deb_url" --no-verbose -O ytplus.deb
 
       - name: Download YouTube Plus (by URL)
